@@ -6,12 +6,12 @@ import video4 from './../assets/images/videosFeed/video4.png'
 
 export const videos = [
     {
-      id: "1",
-      title: "Baby Monitor Technology",
-      views: "123k",
-      author: "Dollie Blair",
-      duration: "8:00",
-      videoUrl: video1,
+        id: "1",
+        title: "Baby Monitor Technology",
+        views: "123k",
+        author: "Dollie Blair",
+        duration: "8:00",
+        videoUrl: video1,
     },
     {
         id: "2",
@@ -20,7 +20,7 @@ export const videos = [
         author: "Dollie Blair",
         duration: "8:00",
         videoUrl: video3,
-      },
+    },
       {
         id: "3",
         title: "Selecting The Right Hotel",

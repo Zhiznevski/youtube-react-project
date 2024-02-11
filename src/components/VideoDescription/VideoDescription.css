@@ -51,9 +51,11 @@
     word-wrap: none;
     cursor: pointer;
 }
+
 .video-description__subs-count {
     display: none;
 }
+
 .video-description__mobile-subscribe-button {
     display: none;
     align-self: center;
@@ -61,19 +63,28 @@
 }
 
 @media (max-width: 576px) { 
+    .video-description__container {
+        padding: 0 0 20px 0;
+        border-bottom: 1px solid rgba(216, 216, 216, 0.5);
+    }
+    
     .video-description__content {
         gap: 10px;
         align-items: center;
     }
+
     .video-description__mobile-subscribe-button {
         display: block;
     }
+
     .video-description__subscribe-button {
         display: none;
     }
+
     .video-description__profile-image {
         width: 50px;
     }
+
     .video-description__title {
         font-size: 1rem;
     }
@@ -81,12 +92,14 @@
     .video-description__creation-info {
         display: none;
     }
+
     .video-description__subs-count  {
         display: block;
         padding: 4px 0 0 0;
         font-size: 0.75rem;
         color: rgb(194, 194, 194);
     }
+
     .video-description__show-more {
         display: none;
     }
