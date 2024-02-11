@@ -17,7 +17,7 @@ export default function Header() {
                     <div className="burger-menu__bar"></div>
                     <div className="burger-menu__bar"></div>
                 </div>
-                <a href="#" className="logo">
+                <a href="/" className="logo">
                     <img src={logo} alt="logo"></img>
                 </a>
             </div>
@@ -34,17 +34,17 @@ export default function Header() {
                 <nav className="header__navigation">
                  <ul className="nav-list">
                     <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <a href="/" className="nav-link">
                             <img src={recordIcon} alt="navigation-icon"></img>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link">
+                        <a href="/" className="nav-link">
                             <img src={shapeIcon} alt="navigation-icon"></img>
                         </a>
                     </li>
                     <li className="nav-item">
-                        <a href="#" className="nav-link icon-notification-link">
+                        <a href="/" className="nav-link icon-notification-link">
                             <img src={notiIcon} alt="navigation-icon"></img>
                             <div className="icon-notification">3</div>
                         </a>

@@ -1,3 +1,9 @@
+import video1 from './../assets/images/videosFeed/video1.png'
+import video2 from './../assets/images/videosFeed/video2.png'
+import video3 from './../assets/images/videosFeed/video3.png'
+import video4 from './../assets/images/videosFeed/video4.png'
+
+
 export const videos = [
     {
       id: "1",
@@ -5,7 +11,7 @@ export const videos = [
       views: "123k",
       author: "Dollie Blair",
       duration: "8:00",
-      videoUrl: "./assets/images/video1.png",
+      videoUrl: video1,
     },
     {
         id: "2",
@@ -13,7 +19,7 @@ export const videos = [
         views: "123k",
         author: "Dollie Blair",
         duration: "8:00",
-        videoUrl: "./assets/images/video2.png",
+        videoUrl: video2,
       },
       {
         id: "3",
@@ -21,7 +27,7 @@ export const videos = [
         views: "123k",
         author: "Dollie Blair",
         duration: "8:00",
-        videoUrl: "./assets/images/video3.png",
+        videoUrl: video3,
       },
       {
         id: "4",
@@ -29,6 +35,6 @@ export const videos = [
         views: "123k",
         author: "Dollie Blair",
         duration: "8:00",
-        videoUrl: "./assets/images/video4.png",
+        videoUrl: video4,
       },
 ]
