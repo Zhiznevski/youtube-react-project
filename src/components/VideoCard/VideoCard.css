@@ -1,6 +1,7 @@
 .recommended-videos__card {
     display: flex;
     flex-direction: column;
+    max-width: fit-content;
     cursor: pointer;
   }
   

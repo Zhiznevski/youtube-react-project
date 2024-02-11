@@ -1,0 +1,124 @@
+.video-player__container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.video-player__image-block {
+    max-width: 1363px;
+}
+
+.video-player__image {
+    width: 100%;
+}
+
+.video-player__mobile-image {
+    display: none;
+}
+
+.navigation-panel {
+    padding: 0 0 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #D8D8D880;
+}
+
+.navigation-panel__left-block {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+}
+
+.navigation-panel__video-title {
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+
+.navigation-panel__view-count {
+    font-size: 1.25rem;
+    color: rgb(194, 194, 194);
+}
+
+.navigation-panel__right-block {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+}
+
+.navigation-panel__buttons-block {
+    display: flex;
+    gap: 10px;
+}
+
+.navigation-panel__more-button-container {
+    display: block;
+}
+
+.navigation-panel__button {
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1.25rem;
+    background: rgba(235, 235, 235, 0.3);
+    cursor: pointer;
+}
+
+.navigation-panel__button-icon {
+    margin-right: 8px;
+}
+
+.navigation-panel__more-button-container {
+   padding-bottom: 5px;
+}
+
+.navigation-panel__video-title-container {
+    display: flex;
+}
+
+.navigation-panel__arrow-block {
+    display: none;
+    padding: 10px 0 0 0;
+}
+
+@media (max-width: 576px) { 
+    
+    .video-player__image {
+        display: none;
+    }
+
+    .video-player__mobile-image {
+        display: block;
+    }
+
+    .navigation-panel__video-title {
+        font-size: 1.25rem;
+        text-wrap:wrap;
+    }
+
+    .navigation-panel {
+        padding: 0 0 15px 0;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navigation-panel__view-count {
+        font-size: 0.75rem;
+    }
+
+    .navigation-panel__left-block {
+        gap: 6px;
+    }
+
+    .navigation-panel__arrow-block {
+        display: block;
+    }
+}
+
+@media (max-width: 875px) { 
+
+    .navigation-panel__more-button-container {
+        display: none;
+    }
+}
