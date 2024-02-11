@@ -10,6 +10,8 @@
 
 .main-content {
   display: flex;
+  flex-direction: column;
+  gap: 38px;
 }
 @media (max-width: 576px) { 
   .main-container  {
@@ -17,6 +19,9 @@
     padding: 0 16px 10px 16px;
     gap: 20px;
 }
+  .main-content {
+    gap: 21px;
+  }
 }
 
 @media (max-width: 1280px) { 

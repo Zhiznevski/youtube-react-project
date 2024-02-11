@@ -1,6 +1,7 @@
 import './App.css';
 import Header from './components/Header/Header';
 import MobileMenu from './components/MobileMenu/MobileMenu';
+import VideoDescription from './components/VideoDescription/VideoDescription';
 import VideoPlayer from './components/VideoPlayer/VideoPlayer';
 import VideosFeed from './components/VideosFeed/VideosFeed';
 
@@ -12,6 +13,7 @@ function App() {
       <div class="main-container container">
         <div className='main-content'>
           <VideoPlayer/>
+          <VideoDescription/>
         </div>
         <VideosFeed/>
       </div>

@@ -19,7 +19,7 @@ export const videos = [
         views: "123k",
         author: "Dollie Blair",
         duration: "8:00",
-        videoUrl: video2,
+        videoUrl: video3,
       },
       {
         id: "3",
@@ -27,7 +27,7 @@ export const videos = [
         views: "123k",
         author: "Dollie Blair",
         duration: "8:00",
-        videoUrl: video3,
+        videoUrl: video2,
       },
       {
         id: "4",
