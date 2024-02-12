@@ -93,15 +93,13 @@
 }
 
 @media (max-width: 576px) { 
-    .video-player__image-block {
-        margin: 0 0 0 -15px;
-    }
     .video-player__image {
         display: none;
     }
 
     .video-player__mobile-image {
         display: block;
+        width: 100%;
     }
 
     .navigation-panel__video-title {
@@ -125,6 +123,13 @@
 
     .navigation-panel__arrow-block {
         display: block;
+    }
+    .navigation-panel__buttons-block {
+        gap: 5px;
+    }
+    .navigation-panel__button {
+        padding: 10px 20px;
+        font-size: 0.81rem;
     }
 }
 
