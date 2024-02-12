@@ -82,6 +82,16 @@
     padding: 10px 0 0 0;
 }
 
+@media (max-width: 900px) { 
+    .navigation-panel {
+        display: flex;
+        gap: 20px;
+        justify-content:baseline;
+        align-items: flex-start;
+        flex-direction: column;
+    }
+}
+
 @media (max-width: 576px) { 
     .video-player__image-block {
         margin: 0 0 0 -15px;

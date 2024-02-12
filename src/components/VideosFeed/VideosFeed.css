@@ -32,6 +32,26 @@
     font-weight: 700;
     align-self: center;
   }
+
+  
+@media (max-width: 1280px) { 
+  .recommended-videos {
+    margin: 0 auto;
+  }
+  .recommended-videos__content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+
+  }
+}
+
+@media (max-width: 900px) { 
+  .recommended-videos__content {
+    grid-template-columns: 1fr;
+  }
+}
+
   @media (max-width: 576px) { 
    .recommended-videos {
     gap: 13px;
